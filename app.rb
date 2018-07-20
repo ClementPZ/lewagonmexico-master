@@ -40,7 +40,7 @@ __END__
   <html>
   <head></head>
   <body>
-  <a href="http://www.lewagon.com/mexico"><img src="https://lewagonbrasil.herokuapp.com/images/white_logo_red_circle.png" style="width: 160px; display: block; margin: 0 auto; left: 0; right: 0;"></a>
+  <a href="http://www.lewagon.com/mexico"><img src="https://lewagonbrasil.herokuapp.com/images/logo.png" style="width: 160px; display: block; margin: 0 auto; left: 0; right: 0;"></a>
     <%= yield %>
   </body>
   </html>
@@ -51,11 +51,11 @@ __END__
   <form action="/charge" method="post">
 
 
-    <script 
-      src="https://checkout.stripe.com/v3/checkout.js" 
-      class="stripe-button" 
-      data-key="<%= settings.publishable_key %>" 
-      data-name="Fast Foo Treinamentos" 
+    <script
+      src="https://checkout.stripe.com/v3/checkout.js"
+      class="stripe-button"
+      data-key="<%= settings.publishable_key %>"
+      data-name="Fast Foo Treinamentos"
       data-image="https://lewagonbrasil.herokuapp.com/images/white_logo_red_circle.png"
       data-amount="1625000"
       data-currency="brl"
