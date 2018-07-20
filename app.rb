@@ -40,14 +40,14 @@ __END__
   <html>
   <head></head>
   <body>
-  <a href="http://www.lewagon.com/mexico"><img src="https://le-wagon-mexico-pagos.herokuapp.com/images/logo.png" style="width: 160px; display: block; margin: 0 auto; left: 0; right: 0;"></a>
+  <a href="http://www.lewagon.com/mexico"><img src="https://le-wagon-mexico-pagos.herokuapp.com/images/logo_circle.png" style="width: 160px; display: block; margin: 0 auto; left: 0; right: 0;"></a>
     <%= yield %>
   </body>
   </html>
 
 @@index
-<div style="text-align: center; padding-top: 200px;">
-  <h1 style="font-family: helvetica; color: #D23333;">Le Wagon <strong>Mexico</strong></h1>
+<div style="text-align: center; padding-top: 300px;">
+  <h1 style="font-family: helvetica; color: #D23333;">Le Wagon <strong>Mexico</strong> bootcamp de septiembre 2018</h1>
   <form action="/charge" method="post">
 
 
@@ -56,7 +56,7 @@ __END__
       class="stripe-button"
       data-key="<%= settings.publishable_key %>"
       data-name="Fast Foo Treinamentos"
-      data-image="https://le-wagon-mexico-pagos.herokuapp.com/images/white_logo_red_circle.png"
+      data-image="https://le-wagon-mexico-pagos.herokuapp.com/images/logo_circle.png"
       data-amount="1625000"
       data-currency="brl"
       data-description="Le Wagon Bootcamp"
