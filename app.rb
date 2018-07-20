@@ -46,8 +46,8 @@ __END__
   </html>
 
 @@index
-<div style="text-align: center; padding-top: 300px;">
-  <h1 style="font-family: helvetica; color: #D23333;">Le Wagon <strong>Mexico</strong> bootcamp de septiembre 2018</h1>
+<div style="text-align: center; padding-top: 50px;">
+  <h1 style="font-family: helvetica; color: #D23333;">Le Wagon <strong>Mexico</strong><br>Bootcamp de septiembre 2018</h1>
   <form action="/charge" method="post">
 
 
