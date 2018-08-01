@@ -47,7 +47,7 @@ __END__
 
 @@index
 <div style="text-align: center; padding-top: 50px;">
-  <h1 style="font-family: helvetica; color: #D23333;">LE WAGON <strong>MEXICO</strong><br>Ignacio<br>Bootcamp de septiembre 2018</h1>
+  <h1 style="font-family: helvetica; color: #D23333;">LE WAGON <strong>MEXICO</strong><br>Justin<br>Bootcamp de septiembre 2018</h1>
   <form action="/charge" method="post">
 
 
@@ -70,5 +70,5 @@ __END__
 
 @@charge
 <div style="text-align: center; padding-top: 200px;">
-  <h2 style="font-family: helvetica;">Gracias, acabas de pagar <strong>MXN 25,000 (~ BRL 4,963 )</strong>! Bienvenido !!!</h2>
+  <h2 style="font-family: helvetica;">Thank you very much for paying the first deposit of <strong>MXN 25,000</strong>! Welcome on board !</h2>
 </div>
