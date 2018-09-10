@@ -11,7 +11,7 @@ get '/' do
 end
 
 post '/charge' do
-  @amount = 546029
+  @amount = 530180
 
   customer = Stripe::Customer.create(
     :email => params[:email],
@@ -57,7 +57,7 @@ __END__
       data-key="<%= settings.publishable_key %>"
       data-name="Fast Foo Treinamentos"
       data-image="https://le-wagon-mexico-pagos.herokuapp.com/images/logo_circle.png"
-      data-amount="546029"
+      data-amount="530180"
       data-currency="brl"
       data-description="Le Wagon Bootcamp"
       data-zip-code="true"
