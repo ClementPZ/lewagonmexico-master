@@ -70,5 +70,5 @@ __END__
 
 @@charge
 <div style="text-align: center; padding-top: 200px;">
-  <h2 style="font-family: helvetica;">Thank you very much for paying your first deposit of<strong>MXN 25,000</strong>! Welcome on board !</h2>
+  <h2 style="font-family: helvetica;">Thank you very much for paying your first deposit of<strong>MXN 20,000</strong>! Welcome on board !</h2>
 </div>
