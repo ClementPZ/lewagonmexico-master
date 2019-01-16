@@ -47,7 +47,7 @@ __END__
 
 @@index
 <div style="text-align: center; padding-top: 50px;">
-  <h1 style="font-family: helvetica; color: #D23333;">LE WAGON <strong>MEXICO</strong><br>Bootcamp February 2019</h1>
+  <h1 style="font-family: helvetica; color: #D23333;">LE WAGON <strong>MEXICO</strong><br><!-- Bootcamp February 2019 --></h1>
   <form action="/charge" method="post">
 
 
