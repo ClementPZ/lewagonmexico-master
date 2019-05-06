@@ -70,5 +70,5 @@ __END__
 
 @@charge
 <div style="text-align: center; padding-top: 200px;">
-  <h2 style="font-family: helvetica;">Thank you very much for your payment of 114,840 MXN and Welcome on Board!</h2>
+  <h2 style="font-family: helvetica;">Thank you very much for your payment of 75,897 MXN and Welcome on Board!</h2>
 </div>
