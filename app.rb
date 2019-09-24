@@ -11,7 +11,7 @@ get '/' do
 end
 
 post '/charge' do
-  @amount = 1187800
+  @amount = 2215400
 
   customer = Stripe::Customer.create(
     :email => params[:email],
@@ -47,7 +47,7 @@ __END__
 
 @@index
 <div style="text-align: center; padding-top: 50px;">
-  <h1 style="font-family: helvetica; color: #D23333;">LE WAGON <strong>MEXICO</strong><br>Bootcamp September 2019</h1>
+  <h1 style="font-family: helvetica; color: #D23333;">LE WAGON <strong>MEXICO</strong><br>Batch #335 - September 2019</h1>
   <form action="/charge" method="post">
 
 
@@ -57,7 +57,7 @@ __END__
       data-key="<%= settings.publishable_key %>"
       data-name="Fast Foo Treinamentos"
       data-image="https://le-wagon-mexico-pagos.herokuapp.com/images/logo_circle.png"
-      data-amount="1187800"
+      data-amount="2215400"
       data-currency="brl"
       data-description="Le Wagon Bootcamp"
       data-zip-code="true"
