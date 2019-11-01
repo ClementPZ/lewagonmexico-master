@@ -12,6 +12,8 @@ end
 
 post '/charge' do
   @amount = 1221800
+  #solo cambiar esto al monto en reales
+  #en el mensaje cambiar el número de batch
 
   customer = Stripe::Customer.create(
     :email => params[:email],
@@ -47,7 +49,7 @@ __END__
 
 @@index
 <div style="text-align: center; padding-top: 50px;">
-  <h1 style="font-family: helvetica; color: #D23333;">LE WAGON <strong>MEXICO</strong><br>Batch #335 - September 2019</h1>
+  <h1 style="font-family: helvetica; color: #D23333;">LE WAGON <strong>MEXICO</strong><br>Batch Full-time January 2020</h1>
   <form action="/charge" method="post">
 
 
