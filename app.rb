@@ -11,7 +11,7 @@ get '/' do
 end
 
 post '/charge' do
-  @amount = 1221800
+  @amount = 522100
   #solo cambiar esto al monto en reales
   #en el mensaje cambiar el número de batch
 
@@ -59,7 +59,7 @@ __END__
       data-key="<%= settings.publishable_key %>"
       data-name="Fast Foo Treinamentos"
       data-image="https://le-wagon-mexico-pagos.herokuapp.com/images/logo_circle.png"
-      data-amount="1221800"
+      data-amount="522100"
       data-currency="brl"
       data-description="Le Wagon Bootcamp"
       data-zip-code="true"
